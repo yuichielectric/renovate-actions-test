@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: docker://renovate/renovate:slim
         with:
-          args: "--token ${{secrets.PERSONAL_ACCESS_TOKEN}} ${GITHUB_REPOSITORY}"
+          args: --token ${{secrets.PERSONAL_ACCESS_TOKEN}} ${GITHUB_REPOSITORY}
