@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: docker run --rm renovate/renovate --token ${TOKEN} ${GITHUB_REPOSITORY}
-        env:
-          TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
+      - uses: renovate/renovate:latest
+        with:
+          args: "--token ${{secrets.PERSONAL_ACCESS_TOKEN}} ${GITHUB_REPOSITORY}"
