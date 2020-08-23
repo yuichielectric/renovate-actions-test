@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "ava": "2.0.0",
-    "ts-node": "8.3.0",
+    "ts-node": "9.0.0",
     "tslint": "5.00.0"
   }
 }
