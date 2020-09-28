@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ava": "2.0.0",
+    "ava": "3.13.0",
     "ts-node": "8.3.0",
     "tslint": "5.00.0"
   }
